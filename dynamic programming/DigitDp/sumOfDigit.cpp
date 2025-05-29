@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+string n;
+int memo[10][2][90];
+int dp(int index, bool last, int sum){
+    if(index==n.size()) return sum;
+    int till=last?n[index]-'0':9;
+    int ans=0;
+    for(int digit=0; digit<=till; digit++){
+        ans += dp(index+1, last && digit==till, sum+digit);
+    }
+    return ans;
+}
+int solve(int _n){
+    n=to_string(_n);
+    memset(memo,-1, sizeof(memo));
+    return dp(0,1,0);
+}
+
+int main(){
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+
+    while(1){
+        int a,b;
+        cin>>a>>b;
+        if(a==-1 && b==-1) break;
+        cout<<solve(b)-solve(a-1)<<endl;
+    }
+    return 0;
+}
