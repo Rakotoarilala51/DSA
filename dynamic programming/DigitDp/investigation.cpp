@@ -1,20 +1,30 @@
 #include<bits/stdc++.h>
 using namespace std;
 string s;
-void dp(string ans,int index, bool last){
+int dp(int index, bool last, int sum){
     if(index==s.size()){
-        cout<<ans<<endl;
-        return;
+        return sum;
     }
-    int till = (last?s[index]-'0': 9);
-    for(int i=0; i<=till; i++){
-        dp(ans+to_string(i), index+1, last && (i==till));
+    int till = last?s[index]-'0':9;
+    int ans=0;
+    for(int digit=0; digit<=till; digit++){
+        ans+=dp(index+1, last && digit==till, sum+digit);
     }
+    return ans;
+}
+int f(int _n){
+    s=to_string(_n);
+    return dp(0,1,0);
 }
 int main(){
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    cin>>s;
-    dp("", 0, true);
+    while(1){
+        int a,b;
+        cin>>a>>b;
+        if(a==-1 && b==-1) break;
+        cout<<f(b)-f(a-1)<<endl;
+    }
+ 
     return 0;
 }
