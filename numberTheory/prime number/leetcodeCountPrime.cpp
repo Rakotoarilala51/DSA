@@ -29,5 +29,5 @@ public:
 int main()
 {
     Solution solution;
-    cout << solution.countPrime(3);
+    cout << solution.countPrime(10);
 }

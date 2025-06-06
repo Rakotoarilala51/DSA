@@ -29,5 +29,5 @@ void primeOptimized(int n){
     }
 }
 int main(){
-    primeOptimized(99);
+    primeOptimized(93);
 }
