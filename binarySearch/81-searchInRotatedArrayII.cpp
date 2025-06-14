@@ -11,12 +11,30 @@ public:
             if(nums[low]==nums[mid] && nums[high]==nums[mid]){
                 low++;
                 high--;
+                continue;
             }
             if(nums[low]<=nums[mid]){
                 if(nums[low]<=target && nums[mid]>=target){
-                    
+                    high=mid-1;
+                }
+                else{
+                    low=mid+1;
+                }
+            }else{
+                if(nums[mid]<=target && nums[high]>=target){
+                    low=mid+1;
+                }
+                else{
+                    high=mid-1;
                 }
             }
         }
+        return false;
     }
 };
+int main(){
+    Solution solution;
+    vector<int> nums={2,5,6,0,0,1,2};
+    cout<<solution.search(nums,3);
+
+}
