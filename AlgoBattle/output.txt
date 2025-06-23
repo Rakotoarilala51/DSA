@@ -1,0 +1,7 @@
+PARLER
+Je parle
+Tu parles
+Il parle
+Nous parlons
+Vous parlez
+Ils parlent
