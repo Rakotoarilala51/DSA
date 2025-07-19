@@ -26,3 +26,4 @@ int main(){
     Solution solution;
     string tiles="AAABBC";
     cout<<tiles;
+}
