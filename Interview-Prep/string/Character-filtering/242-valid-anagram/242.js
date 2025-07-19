@@ -10,7 +10,7 @@ var isAnagram = function(s, t) {
         delete(count[c])
     }
    }
-   return count.size()==0
+   return Object.keys(count).length==0
 
 };
-console.log(isAnagram())
+console.log(isAnagram("ann", "nan"))
