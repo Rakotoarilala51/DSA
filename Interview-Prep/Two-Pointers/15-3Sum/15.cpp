@@ -21,7 +21,7 @@ public:
             int sum = this->nums[left]+this->nums[right];
             if(sum==target){
                 vector<int> triplets;
-                triplets.push_back({-target, });
+                triplets.push_back(-target);
                 triplets.push_back(this->nums[left]);
                 triplets.push_back(this->nums[right]);
                 result.push_back(triplets);
