@@ -1,0 +1,251 @@
+## 🧮 Arithmétique / Divisibilité / Boucles simples
+**Idées :** somme de multiples, différences, pythagore, motifs arithmétiques, LCM, etc.  
+**Problèmes :** 1, 5, 6, 9, 28, 30, 36, 40, 55  
+**Techniques :** boucles, modulo, conditions, formules fermées.
+
+---
+
+## 🔢 Nombres premiers / Facteurs / Primalité
+**Idées :** génération de nombres premiers, factorisation, sommes ou combinaisons de primes.  
+**Problèmes :** 3, 7, 10, 27, 35, 37, 41, 46, 47, 49, 50, 60  
+**Techniques :** sieve of Eratosthenes, test de primalité, concaténation de primes, sliding window.
+
+---
+
+## 🧠 Suites / Récurrences
+**Idées :** suites définies par récurrence (Fibonacci, Collatz, racines continues, etc.)  
+**Problèmes :** 2, 14, 25, 57, 64, 65  
+**Techniques :** boucles + memoization, math récursive, continued fractions.
+
+---
+
+## 🔁 Palindromes / Pandigitaux / Permutations
+**Idées :** propriétés de chiffres symétriques ou pandigitaux.  
+**Problèmes :** 4, 24, 32, 36, 38, 41, 43, 52, 55  
+**Techniques :** manipulation de chaînes, permutations, filtrage de chiffres.
+
+---
+
+## 🧩 Diviseurs / Facteurs / Abondants / Amicaux
+**Idées :** étude des diviseurs, nombres parfaits, amicaux ou abondants.  
+**Problèmes :** 12, 21, 23, 33, 34, 47  
+**Techniques :** décomposition en facteurs, somme des diviseurs, classification de nombres.
+
+---
+
+## ⚙️ Combinatoire / Factorielle / Dénombrement
+**Idées :** chemins de grille, combinaisons, factorielle, choix.  
+**Problèmes :** 15, 20, 31, 34, 53  
+**Techniques :** nCr, DP, factorielle, combinatoire mathématique.
+
+---
+
+## 🧮 Figures polygonales / Nombres figuratifs
+**Idées :** nombres triangulaires, pentagonaux, hexagonaux, intersections.  
+**Problèmes :** 12, 42, 44, 45, 61  
+**Techniques :** formules analytiques, recherche de coïncidences entre suites.
+
+---
+
+## 🧮 Puissances / Grands entiers / Somme de chiffres
+**Idées :** puissances élevées, 2ⁿ, 100!, a^b, somme de chiffres.  
+**Problèmes :** 16, 20, 29, 48, 56, 63  
+**Techniques :** calcul big integer, modular arithmetic, manipulation de chiffres.
+
+---
+
+## 🧠 Fractions / Décimales récurrentes / Cycles
+**Idées :** cycles dans les fractions, simplifications étranges, périodes.  
+**Problèmes :** 26, 33, 57, 64  
+**Techniques :** division longue, modularité, cycle detection.
+
+---
+
+## 🧮 Grilles / Tableaux / Chemins maximaux
+**Idées :** produits ou sommes maximales dans grilles ou triangles.  
+**Problèmes :** 8, 11, 13, 18, 67  
+**Techniques :** sliding window, brute force, dynamic programming (bottom-up).
+
+---
+
+## 💻 Fichiers / Parsing / Analyse textuelle
+**Idées :** lecture et traitement de fichiers texte (noms, mots, poker, chiffrement).  
+**Problèmes :** 22, 42, 54, 59  
+**Techniques :** parsing, string scoring, décryptage XOR, mapping alphabet.
+
+---
+
+## 🔮 Simulation / Logique / Jeux
+**Idées :** calendrier, poker, Goldbach, ordres lexicographiques, règles de jeu.  
+**Problèmes :** 19, 24, 39, 46, 54  
+**Techniques :** simulation, logique, itération d’état, filtrage conditionnel.
+
+---
+
+## 🧬 Hybrides / Multi-concepts
+**Idées :** combinaison de primes, permutations, suites ou propriétés composées.  
+**Problèmes :** 27, 37, 49, 60, 61  
+**Techniques :** hybrid brute force, filtrage intelligent, combinaison de patterns.
+
+
+50 a 100
+
+## 🔢 Nombres premiers / Facteurs / Primalité
+**Idées :** combinaisons, familles de primes, suites de primes, sommes, propriétés spéciales.  
+**Problèmes :** 50, 51, 58, 60, 62, 69, 70, 71, 72, 77, 87  
+**Techniques :** sieve optimisé, concatenation de primes, factorisation, suites arithmétiques de primes.
+
+---
+
+## 🧮 Arithmétique / Divisibilité / Motifs numériques
+**Idées :** motifs de chiffres, nombres multiples, puissances, sommes, propriétés numériques.  
+**Problèmes :** 52, 56, 63, 68, 74, 75, 76, 78, 79, 80, 85, 86, 88, 89, 92, 97, 99  
+**Techniques :** boucles, puissances, digit sum, propriétés combinées, modularité, factorielle, observation mathématique.
+
+---
+
+## 🧠 Suites / Récurrences / Approximations
+**Idées :** suites continues, fractions, expansions infinies, racines continues.  
+**Problèmes :** 57, 64, 65, 66  
+**Techniques :** fractions continues, arithmétique rationnelle, Pell equations, pattern périodique.
+
+---
+
+## 🔁 Palindromes / Pandigital / Permutations
+**Idées :** propriétés spéciales de nombres (ordre, symétrie, pandigitalité).  
+**Problèmes :** 52, 55, 68, 70, 79  
+**Techniques :** permutations, reverse + add, filtrage numérique, manipulation de chiffres.
+
+---
+
+## 🧩 Diviseurs / Facteurs / Classification
+**Idées :** facteurs distincts, sommes ou classes de nombres selon leurs divisibilités.  
+**Problèmes :** 69, 70, 73, 74, 88, 92, 95  
+**Techniques :** totient function, factor counting, cycles, chaînes de factorisation.
+
+---
+
+## ⚙️ Combinatoire / Dénombrement / Distributions
+**Idées :** combinaisons, partitions, chemins, façons d’obtenir des valeurs.  
+**Problèmes :** 53, 76, 77, 78, 81, 83, 84  
+**Techniques :** combinatoire dynamique, DP, dénombrement de partitions, recherche exhaustive.
+
+---
+
+## 🧮 Figures polygonales / Suites figuratives
+**Idées :** nombres triangulaires, carrés, pentagonaux, hexagonaux, etc.  
+**Problèmes :** 61, 64, 66, 85, 91, 93, 98  
+**Techniques :** formules analytiques, intersections de suites, optimisation géométrique.
+
+---
+
+## 💻 Fichiers / Parsing / Analyse textuelle
+**Idées :** traitement de fichiers texte, lecture de données chiffrées, tri, analyse.  
+**Problèmes :** 59, 81, 82, 83, 89, 98  
+**Techniques :** parsing, lecture de matrice, décryptage, manipulation de mots.
+
+---
+
+## 🔮 Simulation / Logique / Jeux / Processus
+**Idées :** calculs itératifs, systèmes avec règles, jeux de hasard, parcours.  
+**Problèmes :** 54, 58, 79, 84, 85, 90, 94, 96, 97, 99, 100  
+**Techniques :** simulation, backtracking, logique, propagation d’état.
+
+---
+
+## 🧬 Hybrides / Multi-concepts complexes
+**Idées :** problèmes combinant géométrie, suites, combinatoire et théorie des nombres.  
+**Problèmes :** 61, 62, 66, 68, 75, 86, 87, 91, 93, 94, 96  
+**Techniques :** combinaison de patterns (prime + permutation + factorisation + géométrie).
+
+101 a 150
+
+## 🧮 Arithmétique / Motifs numériques
+**Idées :** suites polynomiales, puissances, rémainders, progressions, propriétés numériques.  
+**Problèmes :** 101, 104, 120, 123, 127, 129, 130, 132, 133, 134, 135, 136, 139, 145, 149  
+**Techniques :** formules polynomiales, modularité, reste de division, suites arithmétiques.
+
+---
+
+## 🔢 Nombres premiers / Facteurs / Primalité
+**Idées :** recherches de nombres premiers spéciaux, générateurs, propriétés liées aux restes.  
+**Problèmes :** 111, 131, 132, 133, 134, 135, 136, 146  
+**Techniques :** génération de primes, factorisation modulaire, équations de restes.
+
+---
+
+## 🧠 Suites / Récurrences / Polynômes
+**Idées :** interpolations, suites récurrentes, équations diophantiennes, expansions.  
+**Problèmes :** 101, 104, 137, 138, 140  
+**Techniques :** interpolation de Lagrange, suites génératrices, Pell equations.
+
+---
+
+## ⚙️ Combinatoire / Dénombrement
+**Idées :** arrangements, combinaisons, structures de blocs, partitions de formes.  
+**Problèmes :** 106, 107, 108, 109, 114, 115, 116, 117, 118, 121, 122, 126, 148, 150  
+**Techniques :** combinatoire mathématique, DP, inclusion-exclusion, graphes pondérés.
+
+---
+
+## 🧩 Géométrie / Grilles / Espaces
+**Idées :** formes géométriques, triangles, quadrilatères, volumes, coordonnées.  
+**Problèmes :** 102, 139, 141, 142, 143, 144, 147, 148  
+**Techniques :** géométrie analytique, aire, équations diophantiennes, recherche par conditions.
+
+---
+
+## 💻 Simulation / Logique / Recherche
+**Idées :** tests itératifs, parcours d’espace de solutions, logique expérimentale.  
+**Problèmes :** 105, 107, 109, 110, 118, 121, 122, 145, 147, 150  
+**Techniques :** simulation brute optimisée, recherche combinatoire, filtrage de conditions.
+
+---
+
+## 🧬 Hybrides / Multi-concepts
+**Idées :** combinaison de nombres premiers, géométrie, suites et combinatoire.  
+**Problèmes :** 120, 126, 131, 134, 137, 138, 140, 143, 146, 150  
+**Techniques :** recherche hybride (nombre + géométrie + combinatoire), optimisations numériques.
+
+151 200
+
+## 🧮 Arithmétique / Divisibilité / Suites numériques
+**Idées :** fractions, réciproques, puissances, nombres composés, récurrences arithmétiques.  
+**Problèmes :** 152, 153, 155, 157, 159, 160, 162, 163, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 178, 179, 180, 182, 183, 187, 188, 189, 192, 193, 197, 198, 200  
+**Techniques :** modularité, optimisation numérique, factorisation, recherche d’équilibres arithmétiques.
+
+---
+
+## 🔢 Nombres premiers / Facteurs / Théorie des nombres
+**Idées :** factorisation, totient, densité, puissances de nombres premiers.  
+**Problèmes :** 153, 155, 157, 179, 182, 183, 187, 188, 193  
+**Techniques :** totient, factorisation, équations de nombres premiers, tests rapides de primalité.
+
+---
+
+## ⚙️ Combinatoire / Dénombrement / Configurations
+**Idées :** combinaisons, partitions, distributions d’objets, structures arborescentes.  
+**Problèmes :** 154, 161, 162, 166, 167, 172, 173, 174, 181, 191, 194, 195, 199  
+**Techniques :** combinatoire dynamique, inclusion-exclusion, simulation de distributions, optimisation combinatoire.
+
+---
+
+## 🧩 Géométrie / Espaces / Figures
+**Idées :** triangles, cercles, configurations spatiales, volumes et coordonnées.  
+**Problèmes :** 161, 164, 165, 177, 184, 185, 186, 190, 191, 194, 195, 196, 199  
+**Techniques :** géométrie analytique, intersection, dénombrement spatial, équations diophantiennes.
+
+---
+
+## 💻 Simulation / Recherche / Itérations logiques
+**Idées :** expériences simulées, processus aléatoires, recherche exhaustive avec contraintes.  
+**Problèmes :** 151, 156, 158, 164, 185, 186, 189, 197, 198  
+**Techniques :** simulation pseudo-aléatoire, parcours d’état, logique conditionnelle, itération de suites.
+
+---
+
+## 🧬 Hybrides / Multi-concepts avancés
+**Idées :** combinaisons entre géométrie, suites, arithmétique et théorie des nombres.  
+**Problèmes :** 153, 161, 164, 169, 177, 180, 190, 191, 195, 196, 199, 200  
+**Techniques :** hybrid reasoning, factorisation + géométrie, combinatoire + arithmétique.
+

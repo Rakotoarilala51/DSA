@@ -1,0 +1,81 @@
+# 🧠 Synthèse globale des patterns Project Euler (problèmes 1–200)
+
+---
+
+## 1️⃣ Arithmétique & Divisibilité
+**Idée centrale :** opérations numériques pures — sommes, multiples, LCM, différences, motifs arithmétiques.  
+**Problèmes :** 1, 5, 6, 9, 28, 30, 36, 40, 55, 63, 75, 76, 85, 88, 120, 123, 129, 130, 145, 149, 160, 168, 170, 172, 175, 176, 178, 179, 182, 183, 187, 188, 193, 197, 198, 200  
+**Concepts :** modularité, somme de chiffres, différences de carrés, progressions arithmétiques.  
+**Approches :** boucles, formules directes, observation mathématique, pré-calculs.
+
+---
+
+## 2️⃣ Nombres premiers & Factorisation
+**Idée centrale :** génération, test, propriétés et utilisation des nombres premiers.  
+**Problèmes :** 3, 7, 10, 27, 35, 37, 41, 46, 47, 49, 50, 60, 69, 70, 71, 72, 77, 87, 111, 131, 132, 133, 134, 135, 136, 146, 153, 155, 157, 179, 187, 193  
+**Concepts :** Sieve of Eratosthenes, totient, factorisation, suites de primes, modularité.  
+**Approches :** filtrage de nombres, tests de primalité rapides, observation des motifs.
+
+---
+
+## 3️⃣ Suites, Récurrences & Polynômes
+**Idée centrale :** suites récurrentes (Fibonacci, Collatz, Pell, fractions continues, interpolations).  
+**Problèmes :** 2, 14, 25, 57, 64, 65, 66, 101, 104, 120, 137, 138, 140, 169, 180, 190, 197  
+**Concepts :** récurrence linéaire, interpolation, équations diophantiennes, racines continues.  
+**Approches :** simulation + mémoization, formules analytiques, optimisation récursive.
+
+---
+
+## 4️⃣ Combinatoire & Dénombrement
+**Idée centrale :** compter des configurations, chemins, partitions ou arrangements possibles.  
+**Problèmes :** 15, 20, 31, 34, 53, 76, 77, 78, 81, 83, 84, 106, 107, 108, 109, 114, 115, 116, 117, 118, 121, 122, 126, 148, 150, 154, 161, 162, 166, 167, 172, 181, 191, 194, 199  
+**Concepts :** combinatoire classique, DP, inclusion-exclusion, partitions, graphes pondérés.  
+**Approches :** récursion + memo, combinatoire modulaire, calcul dynamique.
+
+---
+
+## 5️⃣ Palindromes, Pandigitaux & Permutations
+**Idée centrale :** propriétés de chiffres : symétrie, ordre, permutations, pandigitalité.  
+**Problèmes :** 4, 24, 32, 36, 38, 41, 43, 52, 55, 68, 70, 79, 104, 145, 170  
+**Concepts :** manipulation de chaînes, génération lexicographique, filtrage numérique.  
+**Approches :** permutations + filtrage, reverse-check, string → int.
+
+---
+
+## 6️⃣ Diviseurs, Facteurs & Nombres spéciaux
+**Idée centrale :** classification des nombres (parfaits, amicaux, abondants, figuratifs).  
+**Problèmes :** 12, 21, 23, 33, 34, 42, 44, 45, 47, 61, 69, 70, 73, 74, 88, 92, 95, 153  
+**Concepts :** décomposition en facteurs, somme des diviseurs, totient, nombres polygonaux.  
+**Approches :** factorisation + conditions, précalculs de sommes, itération filtrée.
+
+---
+
+## 7️⃣ Grilles, Chemins & Optimisation
+**Idée centrale :** trouver des chemins ou combinaisons maximales dans des matrices ou graphes.  
+**Problèmes :** 8, 11, 13, 18, 67, 81, 82, 83, 85, 86, 147, 150  
+**Concepts :** DP sur matrice, shortest/longest path, graphe orienté pondéré.  
+**Approches :** DP bottom-up, BFS/DFS, propagation d’état, table de transitions.
+
+---
+
+## 8️⃣ Géométrie & Figures
+**Idée centrale :** calculs liés aux formes géométriques, coordonnées, intersections, surfaces.  
+**Problèmes :** 39, 102, 139, 141, 142, 143, 144, 147, 148, 161, 164, 165, 177, 184, 185, 186, 190, 191, 194, 195, 196, 199  
+**Concepts :** géométrie analytique, triangles, cercles, volumes, combinaisons spatiales.  
+**Approches :** équations diophantiennes, recherche géométrique, vérifications analytiques.
+
+---
+
+## 9️⃣ Simulation & Logique
+**Idée centrale :** systèmes à règles, processus itératifs, logique d’état, jeux, probabilités.  
+**Problèmes :** 19, 39, 46, 54, 58, 79, 84, 90, 94, 96, 97, 99, 100, 151, 156, 158, 164, 185, 186, 189, 197, 198  
+**Concepts :** logique séquentielle, simulation de jeux, itérations probabilistes.  
+**Approches :** simulation brute + pruning, génération d’états, analyse combinatoire.
+
+---
+
+## 🔟 Hybrides / Multi-concepts
+**Idée centrale :** mélange de plusieurs domaines (arithmétique + géométrie + combinatoire + primes).  
+**Problèmes :** 27, 37, 49, 60, 61, 62, 66, 68, 75, 87, 101, 126, 131, 134, 137, 138, 140, 143, 146, 150, 161, 164, 169, 177, 180, 190, 195, 196, 199, 200  
+**Concepts :** raisonnement mixte, croisement d’idées, motifs récurrents.  
+**Approches :** combiner patterns connus, factoriser, réécrire sous plusieurs angles.
