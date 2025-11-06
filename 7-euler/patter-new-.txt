@@ -1,0 +1,124 @@
+Parfait.
+Là je vais regrouper les problèmes Euler 1–200 par pattern / type de question (et non plus par numéro).
+Tu vas voir les catégories clairement, avec les numéros correspondants.
+
+Je regroupe par familles de pensée algorithmique — la logique derrière chaque type de problème.
+
+🧮 1. Divisibilité, nombres premiers, factorisation
+
+Pattern commun : test de primalité, somme de nombres premiers, plus grand facteur premier, factorisation, totient, repunits, semi-primes, etc.
+
+Problèmes :
+3, 7, 10, 12, 21, 23, 27, 35, 37, 41, 46, 47, 49, 50, 51, 58, 60, 69, 70, 72, 77, 87, 95, 111, 127, 128, 130, 131, 132, 133, 141, 146, 176, 179, 187, 200
+
+🔢 2. Manipulation de chiffres (digits, somme, produit, propriétés)
+
+Pattern : somme/produit de chiffres, puissances, propriétés numériques, bouncy, palindrome base 10/2, rotations, etc.
+
+Problèmes :
+4, 8, 13, 16, 20, 30, 32, 34, 36, 38, 40, 43, 52, 55, 56, 63, 74, 92, 104, 111, 112, 119, 125, 145, 158, 159, 160, 162, 164, 172
+
+♻️ 3. Combinatoire et dénombrement pur
+
+Pattern : permutations, combinaisons, arrangements, compte d’états possibles, nCr, permutations pandigitales, ensembles spéciaux.
+
+Problèmes :
+15, 22, 24, 29, 31, 39, 42, 44, 48, 53, 68, 73, 76, 78, 85, 90, 91, 93, 103, 105, 106, 113, 114, 115, 116, 117, 118, 126, 147, 148, 149, 150, 151, 152, 153, 154, 155, 164, 165, 167, 168, 169, 171, 172, 173, 174, 175, 178, 181, 184, 189, 190, 191, 193, 194, 199
+
+💰 4. Coin Change / Partitions / Dynamic Programming
+
+Pattern : nombre de façons de former une somme, découpage en sous-parties, blocs colorés, tiling, chemins optimaux, etc.
+
+Problèmes :
+18, 31, 67, 76, 78, 81, 82, 83, 110, 114, 115, 116, 117, 150, 164, 169, 194
+
+📐 5. Géométrie, nombres polygonaux, spirales, formes
+
+Pattern : distances, triangles, spirales, nombres triangulaires/pentagonaux/hexagonaux, cercles, coordonnées sur grille.
+
+Problèmes :
+6, 9, 28, 39, 44, 45, 58, 85, 86, 90, 91, 94, 102, 128, 138, 139, 144, 147, 161, 163, 165, 173, 174
+
+🔁 6. Séquences et suites récurrentes
+
+Pattern : Fibonacci, Collatz, Pell, suites générées récursivement, longueurs de chaînes, etc.
+
+Problèmes :
+2, 14, 25, 66, 74, 92, 104, 137, 140, 142
+
+🔢 7. Modulo, exponentiation, récurrence modulaire, congruences
+
+Pattern : cycles, ordres multiplicatifs, totient, remainder patterns, modulo avec grands nombres.
+
+Problèmes :
+26, 48, 57, 64, 97, 120, 123, 129, 130, 133, 152, 156, 157, 170, 183, 188, 192
+
+🧠 8. DP sur matrices, graphes et chemins
+
+Pattern : chemin minimal, somme maximale dans un tableau, Dijkstra, Floyd-Warshall-like.
+
+Problèmes :
+18, 67, 81, 82, 83, 149, 150
+
+🔡 9. Problèmes sur chaînes, parsing, jeux de mots
+
+Pattern : traitement de texte, mots, parsing, jeux.
+
+Problèmes :
+17, 22, 42, 54, 59, 89, 98, 104
+
+🧩 10. Palindromes, pandigitales et permutations spéciales
+
+Pattern : nombres identiques en sens inverse, tous les chiffres utilisés une seule fois, propriétés pandigitales.
+
+Problèmes :
+4, 32, 36, 38, 41, 43, 52, 55, 104, 145, 196
+
+🎲 11. Probabilités et espérances
+
+Pattern : jeux de hasard, probas, Markov, simulations, espérance de gain.
+
+Problèmes :
+84, 109, 121, 151, 155, 182, 195
+
+🧮 12. Grandes puissances / Big Int / Factorials
+
+Pattern : calculs de grandes puissances, factoriels, sommes de chiffres, big-number arithmetic.
+
+Problèmes :
+13, 16, 20, 25, 48, 56, 63, 65, 80, 97, 160
+
+🔍 13. Recherche / backtracking / bruteforce
+
+Pattern : recherche d’état, exploration exhaustive, validation de contraintes (ex: Sudoku).
+
+Problèmes :
+32, 60, 79, 96, 98, 103, 118, 122, 125, 126, 128, 138, 140, 142, 143, 152, 154, 161, 165, 166, 167, 175, 178, 185
+
+🔢 14. Nombres spéciaux / propriétés arithmétiques originales
+
+Pattern : repunit, prime-proof, sqube, amicable, etc.
+
+Problèmes :
+21, 23, 33, 74, 95, 111, 120, 122, 200
+
+🧮 15. Théorie des nombres avancée / diophantienne
+
+Pattern : équations x²+y²=z², formes particulières, propriétés de solutions entières.
+
+Problèmes :
+9, 66, 94, 108, 131, 135, 138, 139, 142, 153, 154
+
+🧠 16. Jeux, stratégie, logique combinatoire
+
+Pattern : jeux avec contraintes, analyse stratégique.
+
+Problèmes :
+54, 84, 109, 121, 182, 195, 199
+
+⚙️ 17. Simulation, algorithmes itératifs
+
+Pattern : processus itératif simulé, marche aléatoire, grille, évolution.
+
+Problèmes :
+14, 59, 84, 186, 195
