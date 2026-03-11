@@ -50,7 +50,7 @@ def solve_1():
 def solve_2():
     a,b = 1,2
     s = 0
-    while a<=4_000_000:
+    while a<=10:
         if a%2==0:
             s+=a
         a,b = b,a+b
