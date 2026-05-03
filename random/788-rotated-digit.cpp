@@ -32,7 +32,7 @@ public:
             cout<<i<<": "<<isGoodInteger(i)<<endl;
         };
         cout<<endl;
-        return dp[n-1];
+        return dp[n];
     }
 };
 int main(){
