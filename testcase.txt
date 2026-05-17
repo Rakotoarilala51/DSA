@@ -1,0 +1,21 @@
+20
+a a
+a b
+ab ba
+abc abc
+abc acb
+abcd dcba
+abcd abdc
+abcd badc
+abcde ebcda
+aaaa bbbb
+abab baba
+abcdef fedcba
+abcdef abcfde
+abcdef azcedf
+aabbcc ccbbaa
+leetcode eteelcod
+rotation tationro
+xyzabc abcxyz
+abacabad dabacaba
+programming gamingpro
